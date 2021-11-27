@@ -438,4 +438,4 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.26.1 #oimo eth2
 # Kendala
 
 1. Pada GNS3 (VLSM), Elena sempat kesulitan untuk terkoneksi. Namun setelah dilaukan traceroute dari Foosha ke Elena, ternyata masalahnya terdapat pada Oimo yang mengembalikan koneksi dari Foosha ke Guanhao.
-2. Pada CPT (CIDR), Oimo - Courtyard dan Oimo - Pucci tidak bisa melakukan ping. Ternyata masalahnya terdapat pada config yang memang belum ditambahkan untuk ke arah Courtyard dan Pucci
+2. Pada CPT (CIDR), Oimo - Courtyard dan Oimo - Pucci tidak bisa melakukan ping. Dapat diselesaikan dengan menambahkan konfigurasi routing dari Foosha ke subnet-subnet tersebut
